@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pisos Madrid · próximamente</title>
+<style>
+  :root { --cian: #00ffff; --amarillo: #ffc000; --negro: #201e23; --gris: #5f5c63; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--negro); background: #ffffff; }
+  main { flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 48px 24px; max-width: 720px; margin: 0 auto; width: 100%; }
+  .franja { width: 64px; height: 8px; background: var(--amarillo); margin-bottom: 24px; }
+  h1 { font-size: clamp(2.4rem, 9vw, 4.5rem); line-height: 1.02; margin: 0 0 12px; letter-spacing: -0.02em; }
+  h1 span { background: var(--cian); padding: 0 8px; }
+  p.lead { font-size: clamp(1.1rem, 4vw, 1.4rem); line-height: 1.4; margin: 0; color: var(--gris); }
+  footer { padding: 20px 24px 28px; max-width: 720px; margin: 0 auto; width: 100%; font-size: 0.8rem; line-height: 1.45; color: var(--gris); border-top: 1px solid #e3e2e5; }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+  <main>
+    <div class="franja" aria-hidden="true"></div>
+    <h1>Pisos Madrid: <span>próximamente</span></h1>
+    <p class="lead">¿Cuánto cuesta un piso en Madrid? En unos minutos, aquí.</p>
+  </main>
+  <footer>
+    Datos: idealista18 (Rey-Blanco, Arbués, López y Páez, 2024), <a href="https://github.com/paezha/idealista18">https://github.com/paezha/idealista18</a>. Contiene información de la base de datos idealista18, disponible bajo la Open Database License (ODbL) 1.0. Precios y coordenadas anonimizados por sus autores; limpieza y asignación de barrio y distrito propias. Precios de 2018. Ni idealista ni los autores avalan este proyecto.
+  </footer>
+</body>
+</html>
